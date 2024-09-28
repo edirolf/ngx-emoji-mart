@@ -1,4 +1,4 @@
-import { Emoji, EmojiComponent, EmojiData, EmojiService } from '@ctrl/ngx-emoji-mart/ngx-emoji';
+import { Emoji, EmojiComponent, EmojiData, EmojiService } from '@edirolf/ngx-emoji-mart/ngx-emoji';
 import {
   ChangeDetectionStrategy,
   ChangeDetectorRef,

@@ -1,6 +1,6 @@
 {
-  "name": "@ctrl/ngx-emoji-mart",
-  "version": "0.0.0-placeholder",
+  "name": "@edirolf/ngx-emoji-mart",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -24,7 +24,7 @@
     "cy:run": "cypress run",
     "e2e:ci": "cross-env CI=true start-test serve:integration:static 4200 cy:run"
   },
-  "private": true,
+  "private": false,
   "devDependencies": {
     "@angular-devkit/build-angular": "17.3.10",
     "@angular-eslint/builder": "17.5.3",
@@ -75,9 +75,12 @@
     "typescript": "5.4.5",
     "zone.js": "0.14.10"
   },
-  "repository": "scttcper/ngx-emoji-mart",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edirolf/ngx-emoji-mart.git"
+  },
   "engines": {
-    "node": ">= 14"
+    "node": ">= 18"
   },
   "release": {
     "branches": [

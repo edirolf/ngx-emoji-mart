@@ -2,8 +2,8 @@
 
 # ngx-emoji-mart
 
-[![npm](https://badge.fury.io/js/%40ctrl%2Fngx-emoji-mart.svg)](https://www.npmjs.org/package/@ctrl/ngx-emoji-mart)
-[![codecov](https://img.shields.io/codecov/c/github/scttcper/ngx-emoji-mart.svg)](https://codecov.io/github/scttcper/ngx-emoji-mart)
+[![npm](https://badge.fury.io/js/%40edirolf%2Fngx-emoji-mart.svg)](https://www.npmjs.org/package/@edirolf/ngx-emoji-mart)
+[![codecov](https://img.shields.io/codecov/c/github/edirolf/ngx-emoji-mart.svg)](https://codecov.io/github/edirolf/ngx-emoji-mart)
 
 **DEMO**: https://ngx-emoji-mart.vercel.app
 
@@ -12,11 +12,11 @@ This project is a port of [emoji-mart](https://github.com/missive/emoji-mart) by
 ## Installation
 
 ```sh
-npm install @ctrl/ngx-emoji-mart
+npm install @edirolf/ngx-emoji-mart
 # Or if you're using yarn
-yarn add @ctrl/ngx-emoji-mart
+yarn add @edirolf/ngx-emoji-mart
 # Or if you're using pnpm
-pnpm install @ctrl/ngx-emoji-mart
+pnpm install @edirolf/ngx-emoji-mart
 ```
 
 ## Dependencies
@@ -40,7 +40,7 @@ Latest version available for each version of Angular
 Add `PickerComponent` to your module imports:
 
 ```ts
-import { PickerComponent } from '@ctrl/ngx-emoji-mart';
+import { PickerComponent } from '@edirolf/ngx-emoji-mart';
 
 @NgModule({
   imports: [PickerComponent],
@@ -220,7 +220,7 @@ Sheets are served from [unpkg](https://unpkg.com), a global CDN that serves file
 Add `EmojiComponent` to your module or standalone component `imports`:
 
 ```ts
-import { EmojiComponent } from '@ctrl/ngx-emoji-mart/ngx-emoji';
+import { EmojiComponent } from '@edirolf/ngx-emoji-mart/ngx-emoji';
 ```
 
 ```html
@@ -280,7 +280,8 @@ const customEmojis = [
     text: '',
     emoticons: [],
     keywords: ['test', 'flag'],
-    spriteUrl: 'https://cdn.jsdelivr.net/npm/emoji-datasource-twitter@14.0.0/img/twitter/sheets-256/64.png',
+    spriteUrl:
+      'https://cdn.jsdelivr.net/npm/emoji-datasource-twitter@14.0.0/img/twitter/sheets-256/64.png',
     sheet_x: 1,
     sheet_y: 1,
     size: 64,

@@ -1,7 +1,9 @@
 {
-  "name": "@ctrl/ngx-emoji-mart/ngx-emoji",
-  "author": "scttcper",
-  "repository": "scttcper/ngx-emoji-mart",
+  "name": "@edirolf/ngx-emoji-mart/ngx-emoji",
+  "author": "edirolf",
+  "repository": "edirolf/ngx-emoji-mart",
   "license": "MIT",
-  "sideEffects": [ "*.css" ]
+  "sideEffects": [
+    "*.css"
+  ]
 }
